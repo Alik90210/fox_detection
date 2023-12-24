@@ -1,17 +1,11 @@
 
-import requests
-import json
 from roboflow import Roboflow
-import config
+from config import  project_id, model_version, confidence, iou_thresh, api_key, tg_bot_token
 from aiogram import Bot, types
 from aiogram.dispatcher.dispatcher import Dispatcher
 from aiogram.utils import executor
-import base64
-from PIL import Image
-from io import BytesIO
 
-
-bot = Bot(token=config.tg_bot_token)
+bot = Bot(token=tg_bot_token)
 dp = Dispatcher(bot)
 
 
@@ -24,12 +18,12 @@ async def start_command(message: types.Message):
 async def find_fox(message: types.Message):
 
     try:
-        rf = Roboflow(api_key=config.api_key)
-        project = rf.workspace().project("fox_pic")
-        model = project.version(2).model
+        rf = Roboflow(api_key=api_key)
+        project = rf.workspace().project(project_id)
+        model = project.version(model_version).model
 
         # infer on an image hosted elsewhere
-        predictions = model.predict(message.text, hosted=True, confidence=70, overlap=30).json()
+        predictions = model.predict(message.text, hosted=True, confidence=confidence, overlap=iou_thresh).json()
 
         await message.reply(predictions)
 
