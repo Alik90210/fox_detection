@@ -30,8 +30,8 @@
 - <a href=https://github.com/Alik90210/fox_detection/blob/main/photo_2023-12-25_15-18-23.jpg>Пример 1</a>
 - <a href=https://github.com/Alik90210/fox_detection/blob/main/photo_2023-12-25_15-18-23%20(2).jpg>Пример 2</a>
 
-#### Участники команды
-- Алексей Круглов (капитан команды)
+#### Участники команды :boy::man::woman::construction_worker:
+- Алексей Круглов (капитан команды) 
 - Артём Урсеков
 - Елизавета Угодина
 - Алексей Фомин
