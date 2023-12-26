@@ -12,7 +12,8 @@
 Пример работы алгоритма <a href='https://github.com/Alik90210/fox_detection/blob/main/photo_2023-12-25_15-18-23%20(2).jpg?raw=true'>1</a>
 <a href='https://github.com/Alik90210/fox_detection/blob/main/photo_2023-12-25_15-18-23.jpg?raw=true'> 2 </a>
 
-Расчет метрик алгоритма в файле ###fox_test.ipynb.
+Расчет метрик алгоритма в файле :point_right:
+#### fox_test.ipynb.
 
 ### :bulb: Также проект работает через Телеграмм Бот: https://t.me/fox_detector_bot:
 в диалоговое окно необходимо вставить URL картинки в формате JPG.
