@@ -9,6 +9,8 @@
 ###### :page_facing_up: список необьходимых библиотек в файле requirements.txt
 ***ВНИМАНИЕ:*** Чтобы получить API_KEY, обратитесь к разработчику <a href=https://t.me/N9021010>в телеграм</a>.
 
+Пример работы алгоритма <a href='https://drive.google.com/file/d/1-O27AUul9HeAxwbPdjj38Q0R19yB6Ktb/view?usp=sharing>1</a>
+
 ### :bulb: Также проект работает через Телеграмм Бот: https://t.me/fox_detector_bot:
 в диалоговое окно необходимо вставить URL картинки в формате JPG.
 
