@@ -9,7 +9,7 @@
 ###### :page_facing_up: список необьходимых библиотек в файле requirements.txt
 ***ВНИМАНИЕ:*** Чтобы получить API_KEY, обратитесь к разработчику <a href=https://t.me/N9021010>в телеграм</a>.
 
-Пример работы алгоритма <a href='https://drive.google.com/file/d/1-O27AUul9HeAxwbPdjj38Q0R19yB6Ktb/view?usp=sharing'>1</a>
+Пример работы алгоритма <a href='https://github.com/Alik90210/fox_detection/blob/main/photo_2023-12-25_15-18-23%20(2).jpg?raw=true'>1</a>
 <a href='https://drive.google.com/file/d/1-Ezjnd4kYnJQln15HqQKW5nqQDXqnOJk/view?usp=sharing'> 2 </a>
 
 ### :bulb: Также проект работает через Телеграмм Бот: https://t.me/fox_detector_bot:
